@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minify-art</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="highlight.min.css">
+</head>
+<body>
+  <details>
+    <summary></summary>
+    <nav>
+      <input name="code-path" type="text" id="codePath" value="https://unpkg.com/htm?module" placeholder="path to .js code">
+      <select name="style-path" value="night-owl" id="stylePath"></select>
+    </nav>
+  </details>
+  <canvas id="canvas"></canvas>
+  <script src="highlight/highlight.pack.js"></script>
+  <script src="highlight.min.js"></script>
+  <script src="highlightJSStyles.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
